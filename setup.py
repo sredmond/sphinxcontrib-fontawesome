@@ -20,6 +20,7 @@ setup(
     author_email='sredmond@stanford.edu',
     # Contents of the package.
     packages=['sphinxcontrib'],
+    include_package_data=True,
     # Supported Python versions. Unlike the classifiers, `pip install` actually
     # checks these constraints and refuses to install projects with mismatches.
     python_requires='>=3.5, <4'
