@@ -12,7 +12,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 
 setup(
-    name='sphinxcontrib.fontawesome',
+    name='sphinxcontrib-fontawesome',
+    version='0.0.1',
     description='Support for `Font Awesome`_ icons and logos in Sphinx documentation.',
     long_description=long_description,
     # url='https://hedron-sphinx-theme.hedronvision.com',
@@ -20,6 +21,7 @@ setup(
     author_email='sredmond@stanford.edu',
     # Contents of the package.
     packages=['sphinxcontrib'],
+    namespace_packages = ['sphinxcontrib'],
     include_package_data=True,
     # Supported Python versions. Unlike the classifiers, `pip install` actually
     # checks these constraints and refuses to install projects with mismatches.
